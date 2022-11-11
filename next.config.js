@@ -1,13 +1,13 @@
 module.exports = () => {
-  const rewrites = () => {
-    return [
-      {
-        source: "/api/:path*",
-        destination: "https://papi.cekpara.com",
-      },
-    ];
-  };
+  // const rewrites = async () => {
+  //   return [
+  //     {
+  //       source: "/api/:path*",
+  //       destination: "http://papi.cekpara.com/api/:path*",
+  //     },
+  //   ];
+  // };
   return {
-    rewrites,
+    // rewrites,
   };
 };
